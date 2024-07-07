@@ -1,4 +1,4 @@
-# yt
+# Youtube Player
 
 A Flutter android app to play Youtube.
 
