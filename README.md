@@ -36,18 +36,18 @@ A Flutter android app to play Youtube.
 
 ## This project is intended for educational and demonstration purposes only. It provides functionality to watch YouTube videos without advertisements using automated processes. Please note the following:
 
-    - Purpose: The project showcases technical capabilities and is not intended for commercial use or to encourage ad-blocking practices on YouTube.
+- Purpose: The project showcases technical capabilities and is not intended for commercial use or to encourage ad-blocking practices on YouTube.
 
-    - Legal Compliance: Use of this project may not comply with YouTube's terms of service or guidelines. Automated skipping of advertisements may violate YouTube's policies.
+- Legal Compliance: Use of this project may not comply with YouTube's terms of service or guidelines. Automated skipping of advertisements may violate YouTube's policies.
 
-    - Respect for Content Creators: Ads on YouTube support content creators and help sustain their channels. By bypassing ads, you may inadvertently reduce revenue opportunities for creators.
+- Respect for Content Creators: Ads on YouTube support content creators and help sustain their channels. By bypassing ads, you may inadvertently reduce revenue opportunities for creators.
 
-    - Risk: Use of this project is at your own risk. The developers do not endorse or encourage bypassing advertisements on YouTube or any other platform.
+- Risk: Use of this project is at your own risk. The developers do not endorse or encourage bypassing advertisements on YouTube or any other platform.
 
-    - Official Platforms: Users are encouraged to support content creators by watching videos on the official YouTube platform, which respects the terms and conditions set by YouTube.
+- Official Platforms: Users are encouraged to support content creators by watching videos on the official YouTube platform, which respects the terms and conditions set by YouTube.
 
-    - Legal Notice: The developers of this project are not liable for any misuse or consequences resulting from the use of this application.
+- Legal Notice: The developers of this project are not liable for any misuse or consequences resulting from the use of this application.
 
-    - Ethical Considerations: Consider the ethical implications of ad-blocking. Content creators rely on ad revenue to produce and share content freely.
+- Ethical Considerations: Consider the ethical implications of ad-blocking. Content creators rely on ad revenue to produce and share content freely.
 
 ### Note: This disclaimer aims to provide transparency and ensure responsible use of this project. Users should familiarize themselves with YouTube's policies and guidelines before using any application that interacts with YouTube content.
