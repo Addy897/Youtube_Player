@@ -38,7 +38,13 @@ class _VideoAppState extends State<VideoApp> with WidgetsBindingObserver {
       });
       return;
     }
-    var audioStream = streamManifest.muxed.bestQuality;
+    var videoStream;
+
+    if(_video!.isLive){
+        videoStream=streamManifest.streams.first;
+    }else{
+      videoStream = streamManifest.muxed.bestQuality;
+    }
     var source=AudioSource.uri(streamManifest.audioOnly.withHighestBitrate().url,tag: MediaItem(
     id: _video!.id.value,
     album: _video?.author,
@@ -47,7 +53,7 @@ class _VideoAppState extends State<VideoApp> with WidgetsBindingObserver {
   
   ),);
     videoController = VideoPlayerController.networkUrl(
-      audioStream.url,
+      videoStream.url,
       videoPlayerOptions: VideoPlayerOptions(
           webOptions: const VideoPlayerWebOptions(
               controls: VideoPlayerWebOptionsControls.enabled(allowDownload: true,allowFullscreen: true,allowPictureInPicture: true,allowPlaybackRate: true))),
@@ -100,6 +106,8 @@ class _VideoAppState extends State<VideoApp> with WidgetsBindingObserver {
   }
   void startAudio(){
     _player?.setAudioSource(_audioSource,initialPosition: videoController?.value.position);
+    _player!.setLoopMode(LoopMode.all);
+    _player!.setShuffleModeEnabled(true);
      _player?.play();
   }
   void stopAudio(){
