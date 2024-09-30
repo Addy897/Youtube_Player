@@ -38,7 +38,7 @@ class _VideoAppState extends State<VideoApp> with WidgetsBindingObserver {
       });
       return;
     }
-    var videoStream;
+    StreamInfo videoStream;
 
     if(_video!.isLive){
         videoStream=streamManifest.streams.first;
